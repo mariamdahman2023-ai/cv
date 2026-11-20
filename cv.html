@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>السيرة الذاتية - مريم دهمان</title>
+<style>
+/* TODO 1: تنسيق الصفحة والخط */
+body {
+  font-family: '【entity-Inter¦canonical_name=Inter】', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.8;
+  margin: 0;
+  padding: 20px;
+}
+
+/* TODO 6: ظل الحاوية */
+.cv-container {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 30px rgba(0,0,0,0.3);
+}
+
+/* TODO 2: رأس بخلفية متدرجة */
+.cv-header {
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
+  text-align: center;
+  padding: 40px 20px;
+  border-radius: 15px 15px 0 0;
+  color: white;
+}
+
+/* TODO 7: صورة دائرية */
+.cv-header img {
+  border-radius: 50%;
+  border: 3px solid #4caf50;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+.cv-header h1 {
+  margin: 15px 0 5px 0;
+  font-size: 32px;
+}
+.cv-header p {
+  margin: 5px 0;
+  color: #ddd;
+}
+
+.cv-content {
+  padding: 30px;
+}
+
+h2 {
+  color: #1a1a2e;
+  border-bottom: 3px solid #4caf50;
+  padding-bottom: 5px;
+}
+
+/* TODO 3: المهارات على شكل وسوم */
+.skills-list {
+  list-style: none;
+  padding: 0;
+}
+.skills-list li {
+  display: inline-block;
+  background: #e8f5e9;
+  color: #2e7d32;
+  padding: 5px 15px;
+  border-radius: 20px;
+  margin: 5px;
+  font-weight: bold;
+}
+
+/* TODO 4: جدول منسّق */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: right;
+}
+th {
+  background-color: #1a1a2e;
+  color: white;
+}
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* TODO 5: تنسيق الروابط */
+a {
+  color: #4caf50;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  color: #1a1a2e;
+  text-decoration: underline;
+}
+
+.project {
+  margin-bottom: 15px;
+}
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #f4f4f4;
+  color: #777;
+}
+</style>
+</head>
+<body>
+
+<div class="cv-container">
+
+  <div class="cv-header">
+    <img src="https://via.placeholder.com/150" alt="صورة مريم دهمان">
+    <h1>مريم دهمان</h1>
+    <p>مطورة ويب | طالبة في جامعة الأقصى</p>
+    <p>البريد الإلكتروني: mariamdahman2023@gmail.com | الهاتف: 0593633925 | <a href="https://github.com/mariamdahman2023-ai">github</a></p>
+  </div>
+
+  <div class="cv-content">
+    <h2>نبذة عني</h2>
+    <p>طالبة شغوفة بتطوير الويب، أحب التعلم وبناء مواقع حديثة. أدرس حالياً في جامعة الأقصى، وأركز على تقنيات الواجهة الأمامية مثل HTML و CSS و JavaScript.</p>
+
+    <h2>المهارات</h2>
+    <ul class="skills-list">
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>JavaScript</li>
+      <li>Git & 【entity-GitHub¦canonical_name=GitHub】</li>
+      <li>التصميم المتجاوب</li>
+      <li>حل المشكلات</li>
+      <li>Bootstrap</li>
+      <li>VS Code</li>
+    </ul>
+
+    <h2>المؤهلات الدراسية</h2>
+    <table>
+      <tr>
+        <th>الدرجة العلمية</th>
+        <th>المؤسسة</th>
+        <th>السنة</th>
+        <th>الحالة</th>
+      </tr>
+      <tr>
+        <td>بكالوريوس إدارة الأعمال</td>
+        <td>جامعة الأقصى</td>
+        <td>2023 - حتى الآن</td>
+        <td>قيد الدراسة</td>
+      </tr>
+      <tr>
+        <td>شهادة الثانوية العامة</td>
+        <td>المدرسة الثانوية</td>
+        <td>2019 - 2023</td>
+        <td>مكتملة</td>
+      </tr>
+      <tr>
+        <td>دورات عبر الإنترنت</td>
+        <td>freeCodeCamp / Coursera</td>
+        <td>2024</td>
+        <td>مكتملة</td>
+      </tr>
+    </table>
+
+    <h2>المشاريع</h2>
+    <div class="project">
+      <strong>• معرض أعمال شخصي (Portfolio)</strong> - موقع شخصي متجاوب مبني باستخدام HTML و CSS
+    </div>
+    <div class="project">
+      <strong>• تطبيق آلة حاسبة</strong> - آلة حاسبة بسيطة باستخدام JavaScript
+    </div>
+    <div class="project">
+      <strong>• تطبيق الطقس</strong> - يجلب بيانات الطقس من واجهة برمجية (API)
+    </div>
+
+    <h2>تواصل معي</h2>
+    <a href="mailto:mariamdahman2023@gmail.com">بريدك الإلكتروني</a> | <a href="https://github.com/mariamdahman2023-ai">GitHub</a>
+  </div>
+
+  <footer>
+    © 2026 مريم دهمان - جميع الحقوق محفوظة
+  </footer>
+
+</div>
+
+</body>
+</html>
